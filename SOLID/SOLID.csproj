@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="OpenClosed\" />
+    <None Remove="OpenClosed\FilterComputerMonitors\" />
+    <None Remove="LSP\" />
+    <None Remove="OpenClosed\SalaryCalculators\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="OpenClosed\" />
+    <Folder Include="OpenClosed\FilterComputerMonitors\" />
+    <Folder Include="LSP\" />
+    <Folder Include="OpenClosed\SalaryCalculators\" />
+  </ItemGroup>
+</Project>
