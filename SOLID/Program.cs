@@ -14,7 +14,7 @@ class Program
         Console.WriteLine("Enter 2 for monitor filter (OCP)");
         Console.WriteLine("Enter 3 for sum calculator (LSP)");
         Console.WriteLine("Enter 4 for sum DI example (DIP)");
-        Console.WriteLine("Enter 5 for sum ISP example (DIP)");
+        Console.WriteLine("Enter 5 for sum ISP example (ISP)");
         int example = Convert.ToInt32(Console.ReadLine());
 
         //Open Closed principle
@@ -78,6 +78,7 @@ class Program
             // Use the client
             client.UseService();
         }
+        //Interface segregation
         else if (example == 5)
         {
             Car car = new Car();
