@@ -1,0 +1,30 @@
+﻿In C#, the Dependency Injection (DI) principle is a design pattern that promotes loose coupling and improves
+the testability, maintainability, and extensibility of your code.
+DI allows you to create more modular and flexible applications by removing direct dependencies between classes.
+
+At a high level, DI involves three main components: dependencies, services, and the injection mechanism.
+
+1: Dependencies: Dependencies are the objects or services that a class requires to perform its functionality.
+   For example, if you have a class A that depends on another class B, B is a dependency of A.
+
+2: Services: Services are implementations of the dependencies.
+   In DI, dependencies are typically implemented as interfaces, and the services are concrete implementations of
+   those interfaces.
+
+3: Injection Mechanism: The injection mechanism is responsible for providing the necessary dependencies to a class.
+   There are different ways to achieve this, such as constructor injection, property injection, or method injection.
+
+Here's an example of using constructor injection, which is one of the most common ways to implement DI in C#:
+
+In this example, the Client class has a dependency on the IService interface.
+The dependency is injected through the constructor of the Client class.
+In the composition root (typically the entry point of the application), an instance of the concrete Service class
+is created, and that instance is passed to the Client constructor.
+Using DI in this way allows you to easily swap different implementations of IService without modifying
+the Client class, making it more flexible and easier to test. It also promotes the single responsibility
+principle by separating the creation of dependencies from the client logic.
+
+There are also DI containers/frameworks available in C# like
+Autofac, Ninject, or Microsoft's built-in DI container,
+which provide automated dependency resolution and object lifetime management.
+These containers simplify the process of managing dependencies in larger applications.

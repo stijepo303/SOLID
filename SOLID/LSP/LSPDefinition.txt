@@ -1,0 +1,5 @@
+﻿The Liskov Substitution Principle (LSP) is a principle of object-oriented programming
+that states that objects of a superclass should be able to be replaced with objects of its subclasses without
+affecting the correctness of the program.
+In other words, if class B is a subclass of class A, then objects of class B should be able to be used wherever
+objects of class A are expected.

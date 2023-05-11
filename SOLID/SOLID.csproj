@@ -12,11 +12,17 @@
     <None Remove="OpenClosed\FilterComputerMonitors\" />
     <None Remove="LSP\" />
     <None Remove="OpenClosed\SalaryCalculators\" />
+    <None Remove="DIP\" />
+    <None Remove="SingleResponsibility\" />
+    <None Remove="InterfaceSegregation\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="OpenClosed\" />
     <Folder Include="OpenClosed\FilterComputerMonitors\" />
     <Folder Include="LSP\" />
     <Folder Include="OpenClosed\SalaryCalculators\" />
+    <Folder Include="DIP\" />
+    <Folder Include="SingleResponsibility\" />
+    <Folder Include="InterfaceSegregation\" />
   </ItemGroup>
 </Project>
