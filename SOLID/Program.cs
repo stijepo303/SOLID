@@ -9,7 +9,7 @@ class Program
     {
         Console.WriteLine("Enter 1 for salary calculator (OCP)");
         Console.WriteLine("Enter 2 for monitor filter (OCP)");
-        Console.WriteLine("Enter 3 for SumCalculator (LSP)");
+        Console.WriteLine("Enter 3 for sum calculator (LSP)");
         int example =Convert.ToInt32(Console.ReadLine());
 
         //Console.WriteLine(Convert.ToInt32(example));
